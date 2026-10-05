@@ -8,6 +8,14 @@ $ python todo_age.py --min-days 180
   400d  FIXME api/auth.py:21  (bob)  handle token expiry
 ```
 
+## インストール
+```
+pip install git+https://github.com/sndryu1/todo-age.git
+```
+(PyPI 公開後は `pip install todo-age`)
+
+**実行ファイル(Python 不要):** [Releases](https://github.com/sndryu1/todo-age/releases) から Windows / macOS / Linux 用をダウンロード。
+
 ## 使い方
 ```
 python todo_age.py [--min-days N] [--json] [--fail-over DAYS]
